@@ -1,13 +1,36 @@
-.logo {
-  color: #13024e;
+:root {
+  --text-main-color: #212121;
 }
-.header-secondary {
-  font-weight: 500;
-  font-size: 12px;
-  line-height: 15px;
-  color: #a8a8a8;
-}
+
 body {
-  font-family: "Raleway", sans-serif;
   font-family: "Roboto", sans-serif;
+  color: var(--text-main-color);
+}
+
+.header {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  /* identical to box height, or 200% */
+
+  letter-spacing: 0.06em;
+  color: #212121;
+}
+
+.header-secondary {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.4;
+  /* identical to box height, or 188% */
+
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+
+BODY {
+  cursor: url("pointer-events: ;");
 }
