@@ -34,3 +34,10 @@ body {
 BODY {
   cursor: url("pointer-events: ;");
 }
+.filter-buttons {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  /* identical to box height, or 162% */
+}
