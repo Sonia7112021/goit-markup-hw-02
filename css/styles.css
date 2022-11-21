@@ -40,4 +40,16 @@ BODY {
   font-size: 16px;
   line-height: 1.6;
   /* identical to box height, or 162% */
+  color: inherit;
+}
+.header-secondary-section {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.1;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #212121;
 }
