@@ -20,7 +20,6 @@ body {
 }
 
 .header-secondary {
-  font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -29,6 +28,7 @@ body {
 
   letter-spacing: 0.03em;
   color: #757575;
+  text-decoration: none;
 }
 
 BODY {
@@ -41,6 +41,8 @@ BODY {
   line-height: 1.6;
   /* identical to box height, or 162% */
   color: inherit;
+  color: #757575;
+  text-decoration: none;
 }
 .header-secondary-section {
   font-family: "Roboto";
@@ -53,7 +55,7 @@ BODY {
 
   color: #212121;
 }
-.they-head {
+.head-they {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 900;
@@ -62,9 +64,10 @@ BODY {
   /* or 136% */
 
   color: #ffffff;
+  background: #2f303a;
 }
 
-address a {
+.adres {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
@@ -75,6 +78,7 @@ address a {
   letter-spacing: 0.03em;
 
   color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
 }
 .street {
   font-family: "Roboto";
@@ -97,9 +101,18 @@ address a {
   /* identical to box height */
 
   letter-spacing: 0.03em;
-
+  text-decoration: none;
   color: #f4f7fa;
+  color: inherit;
 }
 .logo {
-  color: #2196f3;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+
+  color: #212121;
 }
