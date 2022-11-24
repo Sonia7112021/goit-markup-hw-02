@@ -112,3 +112,20 @@ body {
 .social-links {
   color: var(--text-blue);
 }
+
+.text {
+  color: var(--text-blue);
+}
+
+.title {
+  color: var(--text-white);
+
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26;
+  line-height: 1.1;
+  /* identical to box height */
+
+  letter-spacing: 0.03em;
+}
