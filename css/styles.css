@@ -8,7 +8,6 @@ body {
 }
 
 .header {
-  font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
@@ -16,7 +15,7 @@ body {
   /* identical to box height, or 200% */
 
   letter-spacing: 0.06em;
-  color: #212121;
+  color: inherit;
 }
 
 .header-secondary {
@@ -31,9 +30,6 @@ body {
   text-decoration: none;
 }
 
-BODY {
-  cursor: url("pointer-events: ;");
-}
 .filter-buttons {
   font-style: normal;
   font-weight: 500;
@@ -43,20 +39,18 @@ BODY {
   color: inherit;
   color: #757575;
   text-decoration: none;
+  cursor: pointer;
 }
 .header-secondary-section {
-  font-family: "Roboto";
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.1;
   text-align: center;
   letter-spacing: 0.03em;
-
-  color: #212121;
+  color: inherit;
 }
 .head-they {
-  font-family: "Roboto";
   font-style: normal;
   font-weight: 900;
   font-size: 44px;
@@ -65,10 +59,10 @@ BODY {
 
   color: #ffffff;
   background: #2f303a;
+  cursor: pointer;
 }
 
 .adres {
-  font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -80,18 +74,6 @@ BODY {
   color: rgba(255, 255, 255, 0.6);
   text-decoration: none;
 }
-.street {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.7;
-  /* or 171% */
-
-  letter-spacing: 0.03em;
-
-  color: #ffffff;
-}
 
 .loggo {
   font-style: normal;
@@ -102,17 +84,35 @@ BODY {
 
   letter-spacing: 0.03em;
   text-decoration: none;
-  color: #f4f7fa;
+  color: #ffffff;
   color: inherit;
 }
 .logo {
-  font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.1;
   letter-spacing: 0.02em;
   text-decoration: none;
+  color: inherit;
+}
+.color {
+  color: #2196f3;
+}
+.collor {
+  color: #ffffff;
+}
+.street {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+  /* or 171% */
 
-  color: #212121;
+  letter-spacing: 0.03em;
+
+  color: #ffffff;
+}
+.cursor {
+  cursor: pointer;
 }
