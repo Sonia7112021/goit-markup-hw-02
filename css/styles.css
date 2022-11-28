@@ -36,10 +36,9 @@ body {
   font-size: 16px;
   line-height: 1.6;
   /* identical to box height, or 162% */
-  color: inherit;
-  color: var(--text-grey);
   text-decoration: none;
   cursor: pointer;
+  color: inherit;
 }
 .header-secondary-section {
   font-weight: 700;
@@ -70,6 +69,7 @@ body {
 
   color: var(--text-grey);
   text-decoration: none;
+  font-style: normal;
 }
 
 .loggo {
@@ -88,6 +88,7 @@ body {
   line-height: 1.1;
   letter-spacing: 0.02em;
   text-decoration: none;
+  color: inherit;
 }
 .color {
   color: #2196f3;
