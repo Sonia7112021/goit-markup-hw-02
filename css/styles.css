@@ -39,6 +39,7 @@ body {
   text-decoration: none;
   cursor: pointer;
   color: inherit;
+  font-style: normal;
 }
 .header-secondary-section {
   font-weight: 700;
@@ -129,4 +130,25 @@ body {
   /* identical to box height */
 
   letter-spacing: 0.03em;
+  text-decoration: none;
+}
+.hover:hover {
+  color: var(--text-blue);
+}
+.title-secondary-section {
+  background: #2f303a;
+}
+.ulice {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+  /* or 171% */
+
+  letter-spacing: 0.03em;
+
+  color: var(--text-white);
+
+  font-style: normal;
 }
