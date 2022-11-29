@@ -132,6 +132,7 @@ body {
   letter-spacing: 0.03em;
   text-decoration: none;
 }
+
 .hover:hover {
   color: var(--text-blue);
 }
