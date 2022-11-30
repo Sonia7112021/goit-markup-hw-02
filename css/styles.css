@@ -21,12 +21,6 @@ body {
 }
 
 .header-secondary {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.4;
-  /* identical to box height, or 188% */
-
-  letter-spacing: 0.03em;
   color: var(--text-grey);
   text-decoration: none;
 }
@@ -61,13 +55,6 @@ body {
 }
 
 .adres {
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.7;
-  /* or 171% */
-
-  letter-spacing: 0.03em;
-
   color: var(--text-grey);
   text-decoration: none;
   font-style: normal;
@@ -92,17 +79,9 @@ body {
   color: inherit;
 }
 .color {
-  color: #2196f3;
   color: var(--text-white);
 }
 .street {
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.7;
-  /* or 171% */
-
-  letter-spacing: 0.03em;
-
   color: var(--text-white);
 }
 .cursor {
@@ -140,14 +119,7 @@ body {
   background: #2f303a;
 }
 .ulice {
-  font-family: "Roboto";
   font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.7;
-  /* or 171% */
-
-  letter-spacing: 0.03em;
 
   color: var(--text-white);
 
